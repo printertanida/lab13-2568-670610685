@@ -30,10 +30,10 @@ export default function Sidebar() {
             color="red"
             withBorder
           >
-            <Avatar size="md" radius="xl" src="/charliebrown.jpg" />
+            <Avatar size="md" radius="xl" src="/profile.jpg" />
           </Indicator>
           <Text component={RouterNavLink} to="/">
-            User : Chanadda : Admin
+            User : Tanida : Student
           </Text>
         </Group>
       </Box>

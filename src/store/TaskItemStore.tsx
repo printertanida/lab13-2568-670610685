@@ -16,6 +16,7 @@ export const useTaskStore = create<TaskItemProps>((set) => ({
           dueDate,
           isDone: false,
           doneAt: null,
+          assignees: [],
         },
       ],
     })),
