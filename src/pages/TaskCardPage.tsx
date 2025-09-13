@@ -43,7 +43,7 @@ export default function HomePage() {
                 <Stack>
                   {/* เพิ่ม assignees ตรงนี้*/}
                   <Group>
-                    {task.assignees.map((assignee: string) => (
+                    {task.assignees.map((assignee) => (
                     <Badge color="blue" variant="light">{assignee}</Badge>
                     ))}
                   </Group>

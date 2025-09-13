@@ -100,7 +100,6 @@ export default function AddTaskModal({
         />
         <DateInput
           label="Due Date"
-          withAsterisk
           valueFormat="ddd MMM DD YYYY"
           minDate={new Date()}
           value={dueDate}
@@ -114,7 +113,7 @@ export default function AddTaskModal({
           label="Assignees"
           placeholder="Search for Assignees"
           searchable
-          withAsterisk
+          hidePickedOptions
           value={assignees}
           onChange={setAssignees}
           error={!assignees || assignees.length === 0 ? "Assignees is required" : false}

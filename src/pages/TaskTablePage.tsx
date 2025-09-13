@@ -46,7 +46,7 @@ export default function TodoTablePage() {
       {/* เพิ่ม row assignees ตรงนี้*/}
       <Table.Td>
         {task.assignees.map((assignee) => (
-          <Badge key={assignee} color="blue" variant="light" mr="xs">
+          <Badge color="blue" variant="light" mr="xs">
             {assignee}
           </Badge>
         ))}
